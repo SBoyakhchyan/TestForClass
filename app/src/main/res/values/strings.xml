@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TestForClass</string>
+    <string name="my_first_app">My first APP!!!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="basic_calculator">Basic Calculator</string>
+    <string name="enter_first_number">Enter First Number</string>
+    <string name="enter_second_number">Enter Second Number</string>
+    <string name="hint_for_result">result</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="reset">Reset</string>
+    <string name="result">Result</string>
+    <string name="startReset">reset</string>
+</resources>
