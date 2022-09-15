@@ -1,8 +1,10 @@
 package com.example.testforclass
 
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.launch
 
 class TestViewModel : ViewModel() {
 
@@ -15,7 +17,6 @@ class TestViewModel : ViewModel() {
             currentValue--
             emit(currentValue)
         }
-        currentValue = startValue
 
     }
 //init {
